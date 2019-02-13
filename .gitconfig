@@ -26,6 +26,7 @@
 	br=branch
 	brm=branch --merged
 	brnm=branch --no-merged
+	ca=commit --amend
 	cam=commit -am
 	co=checkout
 	cob=checkout -b
