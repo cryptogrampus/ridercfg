@@ -15,3 +15,5 @@ custom-commands:
         required: true
     script: |-
       jira list --query "fixversion = {{args.fixversion}}"
+
+  - name: derpderpderp
