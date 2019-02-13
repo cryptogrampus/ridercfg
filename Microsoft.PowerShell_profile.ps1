@@ -1,4 +1,17 @@
+function syncCfg {
+  Set-Location ~/github.com/cfg
+  git pull
+  $status = (git status --porcelain) | Out-String
+  if ($status.Length -gt 0) {
+      git add --all
+      $status = (git status --porcelain) | Out-String
+      $status.Replace("`n", ", ")
+      git commit -am $status
+      git push
+      }
+  }
 
+syncCfg
 Import-Module posh-git
 Set-Location ~/jet-tfs.visualstudio.com/superman
 Set-Alias g -Value git
@@ -31,3 +44,7 @@ function spm_mm ($branch) {
     g merge master
     g push
 }
+
+Register-EngineEvent PowerShell.Exiting -Action { syncCfg }
+$appCurrentDomain = [System.AppDomain]::CurrentDomain
+Register-ObjectEvent -Action { syncCfg } ` -InputObject $appCurrentDomain -EventName DomainUnload -SourceIdentifier App.DomainUnload
