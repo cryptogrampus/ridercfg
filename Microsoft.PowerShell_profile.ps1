@@ -11,6 +11,7 @@ function syncCfg {
       }
   }
 
+#foo
 syncCfg
 Import-Module posh-git
 Set-Location ~/jet-tfs.visualstudio.com/superman
