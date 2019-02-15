@@ -1,7 +1,7 @@
 endpoint: https://my-jet.atlassian.net/
 user: Aaron Brewbaker
 login: aaron.brewbaker@jet.com
-editor: code
+editor: nvim
 custom-commands:
   - name: mine
     help: display issues assigned to me
