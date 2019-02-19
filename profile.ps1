@@ -12,6 +12,12 @@ function syncCfg {
   }
 
 syncCfg
+
+function cdg ($repo) {
+  cd ~/github.com/$repo
+}
+
+
 Import-Module posh-git
 Set-Location ~/jet-tfs.visualstudio.com/superman
 Set-Alias g -Value git
