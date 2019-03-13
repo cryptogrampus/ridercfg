@@ -1,0 +1,21 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="RD.Init.Cfg.2" value="true" />
+    <property name="RD.Init.DialogShown.Ide" value="true" />
+    <property name="SettingsSearchHistory" value="docker" />
+    <property name="TrendingPluginsSearchHistory" value="paket&#10;docker&#10;html&#10;live&#10;test" />
+    <property name="com.intellij.remoteServer.impl.runtime.ui.ServersToolWindowContent:com.intellij.docker.view.DockerViewContribution.0" value="300" />
+    <property name="evlsprt3.183" value="15" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/github.com/cfg&#10;C:/Users/cryptogrampus/jet-tfs.visualstudio.com/superman-krypto/src/Superman.Krypto/paket.references&#10;C:/Users/cryptogrampus/jet-tfs.visualstudio.com/superman-krypto/Dockerfile&#10;C:/Users/cryptogrampus/jet-tfs.visualstudio.com/superman-krypto&#10;C:/Users/cryptogrampus/jet-tfs.visualstudio.com/superman/SupermanPrime.sln" />
+    <property name="file.gist.reindex.count" value="92" />
+    <property name="fileTypeChangedCounter" value="2" />
+    <property name="ideavim.statistics.timestamp" value="1552492239332" />
+    <property name="ignoreUltimateEdition" value="true" />
+    <property name="last_open_file_path" value="$USER_HOME$/jet-tfs.visualstudio.com/superman-krypto" />
+    <property name="last_open_solution_path" value="$USER_HOME$/jet-tfs.visualstudio.com/superman-krypto" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.2.1" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="DockerRegistry">
+    <DockerRegistry email="aaron.brewbaker@jet.com">
+      <option name="address" value="docker.artifacts.notjet.net" />
+      <option name="name" value="Artifactory Docker Registry" />
+      <option name="username" value="aaron.brewbaker" />
+    </DockerRegistry>
+  </component>
+</application>
