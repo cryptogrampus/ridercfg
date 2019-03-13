@@ -5,5 +5,10 @@
       <option name="name" value="Artifactory Docker Registry" />
       <option name="username" value="aaron.brewbaker" />
     </DockerRegistry>
+    <DockerRegistry email="cryptogrampus@gmail.com">
+      <option name="address" value="registry.hub.docker.com" />
+      <option name="name" value="Docker Hub" />
+      <option name="username" value="cryptogrampus" />
+    </DockerRegistry>
   </component>
 </application>
