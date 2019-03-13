@@ -17,9 +17,11 @@ function cdg ($repo) {
   cd ~/github.com/$repo
 }
 
+function cdj ($repo) {
+  cd ~/jet-tfs.visualstudio.com/$repo
+}
 
 Import-Module posh-git
-Set-Location ~/jet-tfs.visualstudio.com/superman
 Set-Alias g -Value git
 Set-Alias p -Value .paket/paket.exe
 Push-Location "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools"
